@@ -16,6 +16,7 @@
 	</parent>
 
     <modules>
+        <module>framework-service</module>
         <module>framework-common</module>
         <module>framework-admin</module>
         <module>framework-api</module>

@@ -4,9 +4,9 @@ server:
         uri-encoding: UTF-8
         max-threads: 1000
         min-spare-threads: 30
-    port: 8082
+    port: 8083
     servlet:
-        context-path: /framework-generator
+        context-path: /framework-service
 
 # mysql
 spring:
@@ -19,8 +19,6 @@ spring:
     jackson:
         time-zone: GMT+8
         date-format: yyyy-MM-dd HH:mm:ss
-    resources:
-            static-locations: classpath:/static/,classpath:/views/
 
 # Mybatis配置
 mybatis:
