@@ -10,6 +10,7 @@
         <module name="framework-api" />
         <module name="framework-common" />
         <module name="framework-generator" />
+        <module name="framework-service" />
       </profile>
     </annotationProcessing>
   </component>
